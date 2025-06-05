@@ -423,6 +423,32 @@ body {
     font-weight: 600;
 }
 
+.view-project-btn {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #cfcfcf;
+    color: #000;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.view-project-btn:hover {
+    background-color: #ffffff;
+    transform: translateY(-2px);
+    color: #000;
+}
+
+.work-card:hover .view-project-btn {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.work-content {
+    position: relative;
+}
+
 @media (max-width: 576px) {
     .work-image {
         width: 50px;

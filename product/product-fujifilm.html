@@ -1,0 +1,489 @@
+<!-- Lets start -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Responsive meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Vaibhav's Portfolio">
+    <meta name="keywords" content="portfolio, web developer, designer">
+    <meta name="author" content="Vaibhav">
+    <!-- Apple specific meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Open Graph meta tags for social media -->
+    <meta property="og:title" content="Vaibhav's Portfolio">
+    <meta property="og:description" content="Welcome to my portfolio website">
+    <meta property="og:image" content="../assets/images/Logo.png">
+    <meta property="og:url" content="your-website-url.com">
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vaibhav's Portfolio">
+    <meta name="twitter:description" content="Welcome to my portfolio website">
+    <meta name="twitter:image" content="../assets/images/Logo.png">    
+    <title>Vaibhav | Fujifilm</title>  
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html" data-aos="fade-right">
+                <img src="../assets/images/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" data-aos="fade-down">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#work">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../work-experience.html">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../assets/resume/Vaibhav-Shukla.pdf" download>Resume</a>
+                    </li>
+                </ul>
+                 <div class="social-icons d-none d-lg-block" data-aos="fade-left">
+                    <a href="https://www.linkedin.com/in/virtual-reality/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:vaibhavshukla3d@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-image">
+                        <img src="../assets/images/product/fujifilm/fujifilm.png" alt="Product Perspective" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-content">
+                        <span class="intro-text">Case Study</span>
+                        <h1 class="title">Fujifilm Instax Wide Evo</h1>
+                        <p class="description">Build an immersive, no-app-needed product demo that showcases the camera's tactile charm and digital features in real time.</p>
+                        <small class="details"><b>Duration:</b> 4 Days &nbsp;&nbsp; <b>Tools:</b> Figma, Adobe Photoshop</small>
+                        <!-- Add the new button here -->
+                        <div class="mt-4">
+                            <a href="#" class="prototype-btn fujifilm_content">Click to view prototype</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Add after hero section -->
+    <section class="case-study-content" id="fujifilm_content">
+        <div class="container">
+            <div class="row">
+                <!-- Navigation Radio Buttons -->
+                <div class="col-lg-2 position-sticky" style="top: 100px; height: fit-content;">
+                    <div class="section-nav" data-aos="fade-right">
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-requirement" checked>
+                            <label for="nav-requirement">Requirement</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-solution">
+                            <label for="nav-solution">The Solution</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-thoughtprocess">
+                            <label for="nav-thoughtprocess">Thought Process</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-research">
+                            <label for="nav-research">Research</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-opportunity">
+                            <label for="nav-opportunity">Opportunity</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-uxstrategy">
+                            <label for="nav-uxstrategy">UX Strategy</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-delivery">
+                            <label for="nav-delivery">Delivery</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-feedback">
+                            <label for="nav-feedback">Feedback</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-reflection">
+                            <label for="nav-reflection">Reflection</label>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-lg-10">
+                    <!-- Requirement Section -->
+                    <section id="requirement" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">The Requirement</span>
+                        <h2 class="section-title">Create a zero-install AR experience</h2>
+                        <ul class="content-list">
+                            <li>Fujifilm wanted to showcase the Instax Wide Evo’s analog-digital magic without relying on traditional ads or in-store demos.</li>
+                            <li>Visually demonstrate the dual capabilities (print + digital)</li>
+                            <li>Let users virtually handle and explore key features</li>
+                            <li>Be intuitive, fun, and device-agnostic — accessible via QR code or link</li>
+                            <li>Reinforce the brand's nostalgic yet modern vibe</li>
+                            <li>Convert curiosity into product interest and social sharing</li>
+                        </ul>
+                    </section>
+
+                    <!-- Solution Section -->
+                    <section id="solution" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">The Solution</span>
+                        <h2 class="section-title">A Playable, Touchable Demo in Your Pocket</h2>
+                        <p>We developed a WebAR journey where users could scan a code and instantly view the floating Instax Wide Evo camera in their space. Built using SLAM-based AR and surface tracking, the camera responds to real-world positioning and invites tactile interaction:</p>
+                        <ul class="content-list">
+                            <li>Rotate and view the camera from all angles</li>
+                            <li>Tap and toggle through retro lens effects</li>
+                            <li>Zoom into UI elements that mirror real buttons</li>
+                            <li>Explore how wide-format photos are created</li>
+                            <li>Craft every animation and UI element to feel physical and delightful, ensuring that even without holding the product, users felt emotionally connected to it.</li>
+                        </ul>                    
+                    </section>
+
+                    <!-- Thought Process Section -->
+                    <section id="thoughtprocess" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Thought Process</span>
+                        <h2 class="section-title">Understand the Product's Soul</h2>
+                        <ul class="content-list">
+                            <li>Identified the opportunity to turn a traditional product demo into a lifestyle interaction.</li>
+                            <li>Framed the product vision: Create a zero-install experience that emotionally connects digital natives with the physical joy of photography.</li>
+                            <li>Defined user segments — curious buyers, camera hobbyists, nostalgia seekers.</li>
+                            <li>Balanced interaction depth with mobile WebAR limitations.</li>
+                            <li>Scoped features to mirror real-life usage: rotate, zoom, toggle lenses, simulate printing.</li>
+                        </ul>
+
+                        <div id="process" class="content-section mb-5" data-aos="fade-up">
+                            <span class="section-subtitle">The Process</span>
+                            <div class="process-images">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10">
+                                        <div class="row row-cols-5 row-cols-md-5 g-4 justify-content-center">
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/Research.png" alt="Research" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/Opportunity.png" alt="Opportunity" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/Strategy.png" alt="Strategy" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/Delivery.png" alt="Delivery" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <!-- Add fifth image if needed -->
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/Feedback.png" alt="Feedback" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Research Section -->
+                    <section id="research" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Research</span>
+                        <h2 class="section-title">Reimagining Product Exploration in AR </h2>
+                        <ul class="content-list">
+                            <li>Users rarely download apps for a one-time product trial</li>
+                            <li>WebAR eliminates friction and drives spontaneous engagement</li>
+                            <li>Photography enthusiasts are drawn to tactile, sensory cues — sounds, levers, lens toggles</li>
+                            <li>Experiences that feel "playful yet real" boost emotional connection and memorability</li>
+                        </ul>                
+                    </section>
+
+                    <!-- Opportunity Section -->
+                    <section id="opportunity" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Opportunity</span>
+                        <h2 class="section-title">Problem Framing & Opportunity</h2>
+                        <ul class="content-list">
+                            <li>Users want to "feel" the product before purchase, not just see it/li>
+                            <li>Traditional e-commerce listings lacked emotion or interactivity</li>
+                            <li>The challenge was replicating the delight of touch in a virtual, device-agnostic environment</li>
+                            <li>Opportunity: merge education, curiosity, and nostalgia in one AR moment</li>
+                        </ul>                                                
+                    </section>
+
+                    <!-- UX Strategy Section -->
+                    <section id="uxstrategy" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">UX Strategy</span>
+                        <h2 class="section-title">Feature Prioritization & UX Strategy</h2>
+                        <ul class="content-list">
+                            <li>Rotate camera in 360º</li>
+                            <li>Tap to switch between lens effects</li>
+                            <li>Pull lever to simulate photo printing</li>
+                            <li>Pop-up UI for each key feature with lightweight info and motion</li>
+                            <li>Subtle animation and sound feedback to mimic physical actions</li>
+                        </ul>                        
+                    </section>
+
+                    <!-- Delivery Section -->
+                    <section id="delivery" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Delivery</span>
+                        <h2 class="section-title">From Concept to Interface</h2>
+                        <ul class="content-list">
+                            <li>Designed for instant access: no install, 2-tap entry</li>
+                            <li>UI overlays are minimal, designed to highlight the product</li>
+                            <li>Visual cues (lighting, shadows) matched the brand’s premium, vintage aesthetic</li>
+                            <li>Built-in spatial awareness so camera anchored on real surfaces</li>
+                            <li>Realistic textures, interactive levers, lens animations created in Blender</li>
+                            <li>Tested across browsers/devices for consistent experience</li>
+                        </ul>
+
+                        <div class="research-images">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10">
+                                    <div class="row row-cols-1 row-cols-md-1 g-4 justify-content-center">
+                                        <div class="col">
+                                            <div class="research-image p-3 text-center">
+                                                <img src="../assets/images/product/fujifilm/delivery.png" alt="Delivery" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </section>
+
+                    <!-- Feedback Section -->
+                    <section id="feedback" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Feedback</span>
+                        <h2 class="section-title">Testing & Iteration Loop</h2>
+                        <ul class="content-list">
+                            <li>Users loved the tactile simulation — lever + sound = joy</li>
+                            <li>Some needed a visual cue to rotate the camera</li>
+                            <li>3D load time was too long initially → reduced model size</li>
+                            <li>Text prompts were refined for clarity and tone</li>
+                            <li>Repositioned lens toggle button for thumb reach</li>
+                            <li>Reduced 3D mesh complexity by 30% </li>
+                        </ul>
+                    </section>
+
+                    <!-- Reflection Section -->
+                    <section id="reflection" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Reflection</span>
+                        <h2 class="section-title">What I Learned as a Product Manager</h2>
+                        <p>The AR experience succeeded in turning a camera feature overview into a dynamic and memorable product moment. By reducing barriers to entry and focusing on delight, it increased campaign interaction and drove product curiosity. For me, this project was a masterclass in translating physical interaction into intuitive digital UX, thinking lean with WebAR limitations, and guiding cross-functional teams to deliver a sensory-rich, fast-loading experience — all while maintaining brand fidelity and marketing impact.</p>                        
+                    </section>
+
+                    <!-- Add the new button here -->
+                    <div class="mt-4 text-center">
+                        <a href="#" class="prototype-btn fujifilm_content">Click to view prototype</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+
+    <!-- Featured Work Section -->
+    <section id="featured" class="featured-section py-5">
+        <div class="container">
+            <!-- Header -->
+            <div class="featured-header text-center mb-5" data-aos="fade-up">
+                <h2 class="featured-title">Featured Work</h2>
+            </div>
+
+            <!-- Featured Work Carousel -->
+            <div id="featuredWorkCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner pb-0">
+                    <!-- Work Group 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-Running-Karo.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/user-centric.png" alt="user-centric" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-fintech.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/fintech.png" alt="fintech" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Group 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-my-portfolio.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/precise.png" alt="precise" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-fujifilm.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/fujifilm.png" alt="fujifilm" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Group 3 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-tsokotla.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/tsokotla.png" alt="tsokotla" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-cat.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/cat.png" alt="CAT" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer-section py-5 mt-5" id="contact">
+        <div class="container">
+            <!-- Logo -->
+            <div class="footer-logo text-center mb-5" data-aos="fade-up">
+                <img src="../assets/images/F-Logo.png" alt="Footer Logo" class="img-fluid">
+            </div>
+
+            <!-- Contact Information -->
+            <div class="row contact-info justify-content-center mb-5">
+                <!-- Email -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                    <a href="mailto:vaibhavshukla3d@gmail.com" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="../assets/images/footer/Mail.png" alt="Email" class="contact-icon">
+                        <span class="contact-text">vaibhavshukla3d@gmail.com</span>
+                    </a>
+                </div>
+
+                <!-- Phone -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+                    <a href="tel:+919654007107" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="../assets/images/footer/Call.png" alt="Phone" class="contact-icon">
+                        <span class="contact-text">+91- 9654007107</span>
+                    </a>
+                </div>
+
+                <!-- LinkedIn -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <a href="https://linkedin.com/in/virtual-reality/" target="_blank" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="../assets/images/footer/Linkedin.png" alt="LinkedIn" class="contact-icon">
+                        <span class="contact-text">linkedin.com/in/virtual-reality/</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="footer-divider mb-4"></div>
+
+            <!-- Copyright -->
+            <div class="copyright text-center" data-aos="fade-up">
+                <p class="mb-0">Copyright © 2025 All Rights Reserved. Powered By: Vaibhav Shukla</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,446 @@
+<!-- Lets start -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Responsive meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Vaibhav's Portfolio">
+    <meta name="keywords" content="portfolio, web developer, designer">
+    <meta name="author" content="Vaibhav">
+    <!-- Apple specific meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Open Graph meta tags for social media -->
+    <meta property="og:title" content="Vaibhav's Portfolio">
+    <meta property="og:description" content="Welcome to my portfolio website">
+    <meta property="og:image" content="../assets/images/Logo.png">
+    <meta property="og:url" content="your-website-url.com">
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vaibhav's Portfolio">
+    <meta name="twitter:description" content="Welcome to my portfolio website">
+    <meta name="twitter:image" content="../assets/images/Logo.png">    
+    <title>Vaibhav | Portfolio</title>  
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html" data-aos="fade-right">
+                <img src="../assets/images/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" data-aos="fade-down">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#work">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../work-experience.html">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../assets/resume/Vaibhav-Shukla.pdf" download>Resume</a>
+                    </li>
+                </ul>
+                 <div class="social-icons d-none d-lg-block" data-aos="fade-left">
+                    <a href="https://www.linkedin.com/in/virtual-reality/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:vaibhavshukla3d@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-image">
+                        <img src="../assets/images/product/portfolio/portfolio.png" alt="Product Perspective" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-content">
+                        <span class="intro-text">Case Study</span>
+                        <h1 class="title">My Portfolio Website</h1>
+                        <p class="description">Design a personal portfolio website that communicates expertise in product thought process, UX, Designing and  through clear narrative, interaction, and structure.</p>
+                        <small class="details"><b>Duration:</b> 2 Weeks &nbsp;&nbsp; <b>Tools:</b> Figma, Adobe Photoshop</small>
+                        <!-- Add the new button here -->
+                        <div class="mt-4">
+                            <a href="#" class="prototype-btn portfolio_content">Click to view prototype</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Add after hero section -->
+    <section class="case-study-content" id="portfolio_content">
+        <div class="container">
+            <div class="row">
+                <!-- Navigation Radio Buttons -->
+                <div class="col-lg-2 position-sticky" style="top: 100px; height: fit-content;">
+                    <div class="section-nav" data-aos="fade-right">
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-requirement" checked>
+                            <label for="nav-requirement">Requirement</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-solution">
+                            <label for="nav-solution">The Solution</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-thoughtprocess">
+                            <label for="nav-thoughtprocess">Thought Process</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-why">
+                            <label for="nav-why">Why</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-what">
+                            <label for="nav-what">What</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-life">
+                            <label for="nav-life">Bringing It to Life</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-outcomes">
+                            <label for="nav-outcomes">Outcomes</label>
+                        </div>                        
+
+                    </div>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-lg-10">
+                    <!-- Requirement Section -->
+                    <section id="requirement" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">The Requirement</span>
+                        <h2 class="section-title">Craft a portfolio that reflects not just what I’ve built — but how I think.</h2>
+                        <ul class="content-list">
+                            <li>Communicate my hybrid expertise across product management, immersive technology, UX storytelling, and 3D development</li>
+                            <li>Showcase diverse case studies with end-to-end ownership</li>
+                            <li>Demonstrate hybrid strengths across UX, product strategy, and execution</li>
+                            <li>Make the experience intuitive, professional, and easy to update</li>
+                            <li>Balance creativity with structure for clarity and impact</li>
+                            <li>Feel immersive and interactive without sacrificing performance or usability</li>
+                        </ul>
+                    </section>
+
+                    <!-- Solution Section -->
+                    <section id="solution" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">The Solution</span>
+                        <h2 class="section-title">A Modular, Strategic Portfolio That Tells a Product Story</h2>
+                        <p>I approached my portfolio as a real-world product — structuring it to reflect product thinking, highlight immersive innovations, and guide users through my approach. The solution was a clean, modular website with intuitive navigation, clear narrative paths, and flexible layouts for case studies. Each section was designed to show not only what I’ve done, but how and why I made those decisions — from product strategy to 3D development and storytelling. I balanced interactivity with simplicity, ensuring the experience feels thoughtful, professional, and tailored for different types of visitors — hiring managers, collaborators, and potential clients alike.</p>
+                    </section>
+
+                    <!-- Thought Process Section -->
+                    <section id="thoughtprocess" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Thought Process</span>
+                        <h2 class="section-title">Translating Skills into a Scannable, Strategic Experience</h2>
+                        <p>Before jumping into visuals or layout, I treated this project like any product I would manage — beginning with user goals, success metrics, and content strategy. I reverse-engineered what hiring managers, potential clients, and creative collaborators might want to see, feel, and understand within the first 30 seconds. I mapped this against my personal brand pillars: product thinking, immersive tech, 3D expertise, and storytelling. From there, I defined content flows, prioritized case study structure, and ensured every element served both clarity and impact.</p>
+
+                        <div id="process" class="content-section mb-5" data-aos="fade-up">
+                            <span class="section-subtitle">The Process</span>
+                            <div class="process-images">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10">
+                                        <div class="row row-cols-5 row-cols-md-5 g-4 justify-content-center">
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/portfolio/why.png" alt="why" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/portfolio/what.png" alt="what" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/portfolio/strategy.png" alt="Strategy" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/portfolio/outcome.png" alt="outcome" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- Why Section -->
+                    <section id="why" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Understanding the Why</span>
+                        <h2 class="section-title">Designing for Hiring Managers, Collaborators & Clients</h2>
+                        
+                        <ul class="content-list">
+                            <li>Compared multiple portfolio websites across PM, UX, and hybrid roles</li>
+                            <li>Identified gaps in storytelling, structure, and decision-making in others’ sites</li>
+                            <li>Realized many portfolios lacked how and why decisions were made — not just what</li>
+                            <li>Analyzed tha, viewers want to scan quickly but dive deep if interested. Narrative matters as much as visuals.</li>
+                        </ul>
+
+                    </section>
+
+                    <!-- What Section -->
+                    <section id="what" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Clarifying the What</span>
+                        <h2 class="section-title">Structuring the Content Around Product Impact</h2>
+                        <ul class="content-list">
+                            <li>Created personas: hiring manager, design peer, and product founder</li>
+                            <li>Defined core content pillars: About, Case Studies, Product Thinking, Contact</li>
+                            <li>Chose storytelling frameworks to mirror product life cycles (problem → solution → outcome)</li>
+                            <li>Prioritized mobile responsiveness, speed, and modular CMS-friendly design </li>
+                        </ul>
+                    </section>
+
+                    <!-- life Section -->
+                    <section id="life" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Bringing It to Life</span>
+                        <h2 class="section-title">Aligning Visual Identity with Product Thinking</h2>
+                        <ul class="content-list">
+                            <li>Created moodboards to reflect clean, confident, and modern design</li>
+                            <li>Designed high-fidelity mockups and responsive layouts</li>
+                            <li>Developed in Webflow (or your platform) for fast iteration</li>
+                            <li>Used icons, color accents, and microcopy to guide users through content</li>                            
+                        </ul> 
+                    </section>
+
+                    <!-- outcomes Section -->
+                    <section id="outcomes" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Outcomes</span>
+                        <h2 class="section-title">Summary of What I Delivered</h2>                        
+                        <ul class="content-list">
+                            <li>A portfolio that clearly communicates what I’ve built and how I think</li>
+                            <li>Demonstrated ability to take a user-centric, iterative approach — even to personal branding</li>
+                            <li>Created reusable components to easily add/edit future projects</li>
+                            <li>Product thinking and strategic framing</li>
+                            <li>User research and persona definition</li>
+                            <li>Content prioritization and UX writing</li>
+                            <li>Design system creation and modular layout planning</li>
+                            <li>Feedback loops and iterative refinement</li>
+                            <li>Ownership from idea to deployment</li>
+                        </ul>
+                        
+                        <div class="research-images">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10">
+                                    <div class="row row-cols-1 row-cols-md-1 g-4 justify-content-center">
+                                        <div class="col">
+                                            <div class="research-image p-3 text-center">
+                                                <img src="../assets/images/product/portfolio/outcome_full.png" alt="outcome_full" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                          
+                    </section>                  
+
+                    <!-- Add the new button here -->
+                        <div class="mt-4 mb-5 text-center">
+                            <a href="#" class="prototype-btn portfolio_content">Click to view prototype</a>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+
+    <!-- Featured Work Section -->
+    <section id="featured" class="featured-section py-5">
+        <div class="container">
+            <!-- Header -->
+            <div class="featured-header text-center mb-5" data-aos="fade-up">
+                <h2 class="featured-title">Featured Work</h2>
+            </div>
+
+            <!-- Featured Work Carousel -->
+            <div id="featuredWorkCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner pb-0">
+                    <!-- Work Group 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-Running-Karo.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/user-centric.png" alt="user-centric" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-fintech.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/fintech.png" alt="fintech" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Group 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-my-portfolio.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/precise.png" alt="precise" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-fujifilm.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/fujifilm.png" alt="fujifilm" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Group 3 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-tsokotla.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/tsokotla.png" alt="tsokotla" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-cat.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/cat.png" alt="CAT" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer-section py-5 mt-5" id="contact">
+        <div class="container">
+            <!-- Logo -->
+            <div class="footer-logo text-center mb-5" data-aos="fade-up">
+                <img src="../assets/images/F-Logo.png" alt="Footer Logo" class="img-fluid">
+            </div>
+
+            <!-- Contact Information -->
+            <div class="row contact-info justify-content-center mb-5">
+                <!-- Email -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                    <a href="mailto:vaibhavshukla3d@gmail.com" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="../assets/images/footer/Mail.png" alt="Email" class="contact-icon">
+                        <span class="contact-text">vaibhavshukla3d@gmail.com</span>
+                    </a>
+                </div>
+
+                <!-- Phone -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+                    <a href="tel:+919654007107" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="../assets/images/footer/Call.png" alt="Phone" class="contact-icon">
+                        <span class="contact-text">+91- 9654007107</span>
+                    </a>
+                </div>
+
+                <!-- LinkedIn -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <a href="https://linkedin.com/in/virtual-reality/" target="_blank" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="../assets/images/footer/Linkedin.png" alt="LinkedIn" class="contact-icon">
+                        <span class="contact-text">linkedin.com/in/virtual-reality/</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="footer-divider mb-4"></div>
+
+            <!-- Copyright -->
+            <div class="copyright text-center" data-aos="fade-up">
+                <p class="mb-0">Copyright © 2025 All Rights Reserved. Powered By: Vaibhav Shukla</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

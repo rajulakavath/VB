@@ -1,0 +1,719 @@
+<!-- Lets start -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Responsive meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Vaibhav's Portfolio">
+    <meta name="keywords" content="portfolio, web developer, designer">
+    <meta name="author" content="Vaibhav">
+    <!-- Apple specific meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Open Graph meta tags for social media -->
+    <meta property="og:title" content="Vaibhav's Portfolio">
+    <meta property="og:description" content="Welcome to my portfolio website">
+    <meta property="og:image" content="assets/images/Logo.png">
+    <meta property="og:url" content="your-website-url.com">
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vaibhav's Portfolio">
+    <meta name="twitter:description" content="Welcome to my portfolio website">
+    <meta name="twitter:image" content="assets/images/Logo.png">    
+    <title>Vaibhav</title>  
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-aos="fade-right">
+                <img src="assets/images/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" data-aos="fade-down">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="work-experience.html">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/resume/Vaibhav-Shukla.pdf" download>Resume</a>
+                    </li>
+                </ul>
+                <div class="social-icons d-none d-lg-block" data-aos="fade-left">
+                    <a href="https://www.linkedin.com/in/virtual-reality/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:vaibhavshukla3d@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-image">
+                        <img src="assets/images/home.png" alt="Vaibhav" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-content">
+                        <span class="intro-text">HI, I'M VAIBHAV A</span>
+                        <h1 class="title">Product Manager</h1>
+                        <p class="description">Evolving to create impactful products that make users' lives easier</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Me Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <!-- Who Am I Section -->
+            <div class="who-am-i mb-5" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h3 class="about-subtitle">WHO AM I</h3>
+                        <p class="about-bold-text">I'm consistent, adaptive, inquisitive, and growth-driven.</p>
+                    </div>
+                    <div class="col-md-1 divider-container d-none d-md-block">
+                        <div class="vertical-divider"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="about-text">I blend product strategy, UX, & future tech to build impactful digital solutions. My strength lies in leading end-to-end development across 3D, SaaS, & cross-functional teams.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Summary -->
+            <div class="experience-summary mb-5" data-aos="fade-up">
+                <p class="summary-text">Strategic and creative product leader with 16+ years of experience, including 6+ years in product and team leadership and 10+ years as Head of Art in Gaming & XR. Adept at delivering immersive experiences, managing full product lifecycles, and aligning UX/UI design with business goals. Proven success in scaling AR/VR platforms, optimizing workflows, and integrating customer insights to improve engagement and retention.</p>
+            </div>
+
+            <!-- Skills Columns -->
+            <div class="row skills-section">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-column">
+                        <h3 class="skill-heading">Certifications</h3>
+                        <ul class="skill-list">
+                            <li>Advanced Diploma in Design</li>
+                            <li>AI Mastery</li>
+                            <li>UX Design</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-column">
+                        <h3 class="skill-heading">Software Skills</h3>
+                        <ul class="skill-list">
+                            <li>Figma</li>
+                            <li>Adobe XD</li>
+                            <li>Microsoft Suit 365</li>
+                            <li>Jira Software</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Autodesk 3Ds Max</li>
+                            <li>Blender</li>
+                            <li>Adobe Substance 3D</li>
+                            <li>Unity3D</li>
+                            <li>Unreal Engine</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-column">
+                        <h3 class="skill-heading">Soft & Hard Skills</h3>
+                        <ul class="skill-list">
+                            <li>Customer Mindset</li>
+                            <li>User Research</li>
+                            <li>A/B Testing</li>
+                            <li>Design thinking</li>
+                            <li>Management Skills</li>
+                            <li>Technical Expertise</li>
+                            <li>Communication</li>
+                            <li>Collaboration</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- My Works Section -->
+    <section id="work" class="works-section py-5">
+        <div class="container">
+            <!-- Header Section -->
+            <div class="works-header mb-5" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h3 class="works-subtitle">MY WORK</h3>
+                        <p class="works-bold-text">Experienced eyes, designing for the future.</p>
+                    </div>
+                    <div class="col-md-1 divider-container d-none d-md-block">
+                        <div class="vertical-divider"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="works-text">I bring a wealth of experience from the future tech, along with a relentless passion for design and a drive to learn and excel.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Cards -->
+            <div class="row work-cards">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <a href="./product-perspective.html" class="work-card-link text-decoration-none">
+                        <div class="work-card">
+                            <div class="work-header d-flex align-items-center mb-3">
+                                <div class="work-image">
+                                    <img src="assets/images/works/Product-Perspective.png" alt="Product Perspective" class="img-fluid">
+                                </div>
+                                <h4 class="work-title mb-0 ms-3">Product Perspective</h4>
+                            </div>
+                            <div class="work-content">
+                                <p class="work-description">I bring a wealth of experience from the future tech, along with a relentless passion for design and a drive to learn and excel.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <a href="./immersive-tech.html" class="work-card-link text-decoration-none">
+                        <div class="work-card">
+                            <div class="work-header d-flex align-items-center mb-3">
+                                <div class="work-image">
+                                    <img src="assets/images/works/Immersive-Tech.png" alt="Immersive Tech" class="img-fluid">
+                                </div>
+                                <h4 class="work-title mb-0 ms-3">Immersive Tech</h4>
+                            </div>
+                            <div class="work-content">                            
+                                <p class="work-description">Pushed boundaries in AR/VR/MR by crafting next-gen experiences for global education, healthcare, and training.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <a href="./storyboard.html" class="work-card-link text-decoration-none">
+                        <div class="work-card">
+                            <div class="work-header d-flex align-items-center mb-3">
+                                <div class="work-image">
+                                    <img src="assets/images/works/Experience-Storyboard.png" alt="Experience Storyboard" class="img-fluid">
+                                </div>
+                                <h4 class="work-title mb-0 ms-3">Experience Storyboard</h4>
+                            </div>
+                            <div class="work-content">                            
+                                <p class="work-description">Brought ideas to life through quick, interactive prototypes that accelerated decision-making and user validation.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <a href="./3d-development.html" class="work-card-link text-decoration-none">
+                        <div class="work-card">
+                            <div class="work-header d-flex align-items-center mb-3">
+                                <div class="work-image">
+                                    <img src="assets/images/works/3D-Development.png" alt="3D Development" class="img-fluid">
+                                </div>
+                                <h4 class="work-title mb-0 ms-3">3D Development</h4>
+                            </div>
+                            <div class="work-content">                            
+                                <p class="work-description">Engineered high-quality 3D environments and assets, elevating user immersion across games and simulations.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work Section -->
+    <section id="featured" class="featured-section py-5">
+        <div class="container">
+            <!-- Header -->
+            <div class="featured-header text-center mb-5" data-aos="fade-up">
+                <h2 class="featured-title">Featured Work</h2>
+            </div>
+
+            <!-- Featured Work Carousel -->
+            <div id="featuredWorkCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner pb-0">
+                    <!-- Work Group 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="product/product-Running-Karo.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="assets/images/product/user-centric.png" alt="user-centric" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="product/product-fintech.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="assets/images/product/fintech.png" alt="fintech" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Group 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="product/product-my-portfolio.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="assets/images/product/precise.png" alt="precise" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="product/product-fujifilm.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="assets/images/product/fujifilm.png" alt="fujifilm" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Group 3 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="product/product-tsokotla.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="assets/images/product/tsokotla.png" alt="tsokotla" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="product/product-cat.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="assets/images/product/cat.png" alt="CAT" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section py-5">
+        <div class="container">
+            <!-- Header -->
+            <div class="testimonials-header text-center mb-5" data-aos="fade-up">
+                <h2 class="testimonials-title">Testimonials</h2>
+            </div>
+
+            <!-- Testimonials Carousel -->
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Testimonial 1 -->
+                    <div class="carousel-item active">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>Vaibhav's knowledge of UX design principles and tools contributed to his user-centricity in our projects, leaving a lasting impact on our learners. His proficiency in team management, project management, and client management was remarkable. He effortlessly led his team through various challenges, fostering a collaborative and positive work environment that brought out the best in everyone.</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Sangita-Das.png" alt="Sangita Das">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Sangita Das</h4>
+                                    <p class="author-designation mb-0">Associate Director</p>
+                                    <p class="author-company mb-0">Academian Inc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>Vaibhav is a true master of UI/UX design, 3D design,, Metaverse experience along with his knowledge on database & others. His work consistently exceeds expectations, showcasing a unique blend of creativity and technical prowess. Not only is Vaibhav a certified expert in his technical field, but his ability to handle clients is equally impressive. He has a knack for understanding client requirements and delivering results,</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Shiva-Prasad.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Shiva Prasad G</h4>
+                                    <p class="author-designation mb-0">Additional VP</p>
+                                    <p class="author-company mb-0">Beyond Square Solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>Vaibhav’s passion and hard work is evident in the exceptional results he delivers. With his invaluable contributions, we consistently met and exceeded our clients' expectations, making him an asset to any team.</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Ali-Muralitharan.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Ali Muralitharan</h4>
+                                    <p class="author-designation mb-0">Customer Success Manager</p>
+                                    <p class="author-company mb-0">Eon Reality, SIngapore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>Vaibhav exhibits exemplary project management capabilities. They are adept at defining clear project objectives, setting realistic timelines, and coordinating resources efficiently to ensure successful project delivery. Their systematic approach to project planning and execution has significantly contributed to the on-time and within-budget completion of multiple complex projects.</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Satvinder-Singh.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Satvinder Singh</h4>
+                                    <p class="author-designation mb-0">Vice President - Business & Growth</p>
+                                    <p class="author-company mb-0">Neuroglia Health Pvt. Ltd.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+
+                    <!-- Testimonial 5 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>I have found working with him to be such a pleasure and he is also very quick in understanding customer needs and problems faced. I highly recommend this fine gentleman and look forward to future collaboration with him</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Louis-Lau.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Louis Lau</h4>
+                                    <p class="author-designation mb-0">Senior Account Manager</p>
+                                    <p class="author-company mb-0">James Cook Institute, Singapore</p>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 6 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>Vaibhav is one of the tech savvy and plus with management skills. His qualities are the most wanted tribes in this AI world.</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Senthilkumar.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Senthilkumar R</h4>
+                                    <p class="author-designation mb-0">Director & Co-Founder</p>
+                                    <p class="author-company mb-0">E16 AI XR Technology </p>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 7 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>If you're looking for a manager who knows how to get things done, motivates the team, and makes work fun, then look no further. He is your guy! Trust me; you won't regret having him on board. He's got that special knack for bringing out the best in people and turning challenges into opportunities. With him leading the way, success is practically guaranteed!</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Saurav-Kumar.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Saurav Kumar</h4>
+                                    <p class="author-designation mb-0">3D Artist</p>
+                                    <p class="author-company mb-0">Deftsoft</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 8 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>Vaibhav is one of the most dedicated professionals I’ve worked with and is willing to go the extra mile to help you when needed. His expertise is considerable and working with him was always fun and innovative. I hope we will work together in the future for more innovations.</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Neeraj-Salaria.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Neeraj Salaria</h4>
+                                    <p class="author-designation mb-0">Founder</p>
+                                    <p class="author-company mb-0">कलाKonnect</p>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 9 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>Vaibhav is very thought-out and thorough, with not just creativity but also intelligence and design thinking. We worked together at EON Reality and he is one of the best in his field and is always willing to share best practices.</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Janil-Malhara.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Janil Malhara</h4>
+                                    <p class="author-designation mb-0">Digital Transformation Manager</p>
+                                    <p class="author-company mb-0">Integrate-X</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Testimonial 10 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>I Know Vaibhav since the beginning of my career. He is a very supportive and great co-worker. We worked together in Orkire Technologies. He is some one who is there to support his team members and juniors alike. He is very focussed , goal oriented and go - getter.</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Shreya-Ghosh.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Shreya Ghosh</h4>
+                                    <p class="author-designation mb-0">Senior Consultant</p>
+                                    <p class="author-company mb-0">Infosys</p>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 11 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>Mr. Vaibhav is a very humble and supportive mentor. He has good team-building skills, and His friendly nature always helps to boost team morale. We worked together at EON Reality, and I am pleased to work with him and thankful for the support and guidance.</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Rohan-Sen.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Rohan Sen</h4>
+                                    <p class="author-designation mb-0">Senior 3D Technical Artist</p>
+                                    <p class="author-company mb-0">Anarchy Games</p>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 12 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>Mr. Vaibhav is an excellent person and outstanding mentor . I had a pleasure working for six years with him, and he leads by example. He always kept the team morale up, and I believe he is the best manager I ever had as he is friendly. His ability to work through the crisis and develop new ways to achieve the targets were always inspiring. We worked together at Veative Labs and EON Reality and I am delighted to work learn with such-professionals. </p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Rajneesh-Dagar.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Rajneesh Dagar</h4>
+                                    <p class="author-designation mb-0">Lead Technical Artist </p>
+                                    <p class="author-company mb-0">Anarchy Games</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                                    
+
+                    <!-- Testimonial 13 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>Vaibhav is an outstanding mentor with good team building skills, always there for team members. We worked together at Veative Labs and his work ethics is immaculate and so easy to work together with.</p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Shantanu-Varma.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Shantanu Varma</h4>
+                                    <p class="author-designation mb-0">Software Engineer</p>
+                                    <p class="author-company mb-0">Electronic Arts (EA)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+
+                    <!-- Testimonial 14 -->
+                    <div class="carousel-item">
+                        <div class="testimonial-card" data-aos="fade-up">
+                            <div class="testimonial-content mb-4">
+                                <p>Vaibhav is the man with creative head, cooperative hand, diagnostic and remedial leader. </p>
+                            </div>
+                            <div class="testimonial-author d-flex align-items-center">
+                                <div class="author-image">
+                                    <img src="assets/images/testimonials/Ramanand-Singh.png" alt="Shiva-Prasad">
+                                </div>
+                                <div class="author-info ms-3">
+                                    <h4 class="author-name">Ramanand Singh</h4>
+                                    <p class="author-designation mb-0">Center Coordinator</p>
+                                    <p class="author-company mb-0">ALLEN CAREER INSTITUTE </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="4"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="5"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="6"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="7"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="8"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="9"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="10"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="11"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="12"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="13"></button>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section py-5 mt-5" id="contact">
+        <div class="container">
+            <!-- Logo -->
+            <div class="footer-logo text-center mb-5" data-aos="fade-up">
+                <img src="assets/images/F-Logo.png" alt="Footer Logo" class="img-fluid">
+            </div>
+
+            <!-- Contact Information -->
+            <div class="row contact-info justify-content-center mb-5">
+                <!-- Email -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                    <a href="mailto:vaibhavshukla3d@gmail.com" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="assets/images/footer/Mail.png" alt="Email" class="contact-icon">
+                        <span class="contact-text">vaibhavshukla3d@gmail.com</span>
+                    </a>
+                </div>
+
+                <!-- Phone -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+                    <a href="tel:+919654007107" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="assets/images/footer/Call.png" alt="Phone" class="contact-icon">
+                        <span class="contact-text">+91- 9654007107</span>
+                    </a>
+                </div>
+
+                <!-- LinkedIn -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <a href="https://linkedin.com/in/virtual-reality/" target="_blank" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="assets/images/footer/Linkedin.png" alt="LinkedIn" class="contact-icon">
+                        <span class="contact-text">linkedin.com/in/virtual-reality/</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="footer-divider mb-4"></div>
+
+            <!-- Copyright -->
+            <div class="copyright text-center" data-aos="fade-up">
+                <p class="mb-0">Copyright © 2025 All Rights Reserved. Powered By: Vaibhav Shukla</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

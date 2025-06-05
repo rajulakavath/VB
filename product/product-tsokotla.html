@@ -1,0 +1,439 @@
+<!-- Lets start -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Responsive meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Vaibhav's Portfolio">
+    <meta name="keywords" content="portfolio, web developer, designer">
+    <meta name="author" content="Vaibhav">
+    <!-- Apple specific meta tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Open Graph meta tags for social media -->
+    <meta property="og:title" content="Vaibhav's Portfolio">
+    <meta property="og:description" content="Welcome to my portfolio website">
+    <meta property="og:image" content="../assets/images/Logo.png">
+    <meta property="og:url" content="your-website-url.com">
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vaibhav's Portfolio">
+    <meta name="twitter:description" content="Welcome to my portfolio website">
+    <meta name="twitter:image" content="../assets/images/Logo.png">    
+    <title>Vaibhav | Tsokotla</title>  
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html" data-aos="fade-right">
+                <img src="../assets/images/Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav" data-aos="fade-down">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#work">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../work-experience.html">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../assets/resume/Vaibhav-Shukla.pdf" download>Resume</a>
+                    </li>
+                </ul>
+                 <div class="social-icons d-none d-lg-block" data-aos="fade-left">
+                    <a href="https://www.linkedin.com/in/virtual-reality/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:vaibhavshukla3d@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-image">
+                        <img src="../assets/images/product/tsokotla/tsokotla.png" alt="Product Perspective" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-content">
+                        <span class="intro-text">Case Study</span>
+                        <h1 class="title">Build AR Demos – Instantly</h1>
+                        <p class="description">Designed a streamlined mobile experience that lets engineering teams upload 3D assets, videos, and PDFs to generate live AR demos — without any technical barrier.</p>
+                        <small class="details"><b>Duration:</b> 1 Week &nbsp;&nbsp; <b>Tools:</b> Figma, Adobe Photoshop</small>
+                        <!-- Add the new button here -->
+                        <div class="mt-4">
+                            <a href="#" class="prototype-btn tsokotla_content">Click to view prototype</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Add after hero section -->
+    <section class="case-study-content" id="tsokotla_content">
+        <div class="container">
+            <div class="row">
+                <!-- Navigation Radio Buttons -->
+                <div class="col-lg-2 position-sticky" style="top: 100px; height: fit-content;">
+                    <div class="section-nav" data-aos="fade-right">
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-requirement" checked>
+                            <label for="nav-requirement">Requirement</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-solution">
+                            <label for="nav-solution">The Solution</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-thoughtprocess">
+                            <label for="nav-thoughtprocess">Thought Process</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-research">
+                            <label for="nav-research">Research</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-opportunity">
+                            <label for="nav-opportunity">Opportunity</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-uxstrategy">
+                            <label for="nav-uxstrategy">UX Strategy</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-delivery">
+                            <label for="nav-delivery">Delivery</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-feedback">
+                            <label for="nav-feedback">Feedback</label>
+                        </div>
+                        <div class="nav-item">
+                            <input type="radio" name="section-nav" id="nav-reflection">
+                            <label for="nav-reflection">Reflection</label>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="col-lg-10">
+                    <!-- Requirement Section -->
+                    <section id="requirement" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">The Requirement</span>
+                        <h2 class="section-title">Making AR Demo Creation Accessible</h2>
+                       <p>Tsokotla Engineering needed a seamless way for internal teams and clients to create interactive AR demos from their existing assets. The traditional approach involved multiple handoffs, slow turnaround times, and technical dependency — the goal was to make this process self-serve, mobile, and fast.</p>
+                    </section>
+
+                    <!-- Solution Section -->
+                    <section id="solution" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">The Solution</span>
+                        <h2 class="section-title">A Guided, No-Code AR Publishing Flow</h2>
+                        <p>We created a structured mobile app experience that allows users to log in, create a project, upload 3D models, video walkthroughs, and product PDFs — and instantly publish them into a working AR demo. A library of pre-added demos helps with onboarding and reuse.</p>                        
+                    </section>
+
+                    <!-- Thought Process Section -->
+                    <section id="thoughtprocess" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Thought Process</span>
+                        <h2 class="section-title">Designing with Engineers in Mind</h2>
+                        <p>Engineers aren't always designers or technologists. We focused on minimizing complexity: each step of the app mimics simple file upload tools while guiding users through the AR publishing flow. The goal was to empower users without overwhelming them.</p>
+
+                        <div id="process" class="content-section mb-5" data-aos="fade-up">
+                            <span class="section-subtitle">The Process</span>
+                            <div class="process-images">
+                                <div class="row justify-content-center">
+                                    <div class="col-md-10">
+                                        <div class="row row-cols-5 row-cols-md-5 g-4 justify-content-center">
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/Research.png" alt="Research" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/Opportunity.png" alt="Opportunity" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/Strategy.png" alt="Strategy" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/Delivery.png" alt="Delivery" class="img-fluid">
+                                                </div>
+                                            </div>
+                                            <!-- Add fifth image if needed -->
+                                            <div class="col">
+                                                <div class="process-image p-3">
+                                                    <img src="../assets/images/product/Feedback.png" alt="Feedback" class="img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Research Section -->
+                    <section id="research" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Research</span>
+                        <h2 class="section-title">Understanding the Demo Lifecycle</h2>
+                        <p>I interviewed field engineers and support teams to identify real friction points. Key insights revealed the need for immediate, visual assistance and a faster understanding of system behavior without diving into dense manuals.</p>
+                    </section>
+
+                    <!-- Opportunity Section -->
+                    <section id="opportunity" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Opportunity</span>
+                        <h2 class="section-title">Bridging the Gap Between Idea and Experience</h2>
+                        <p>By letting users create and manage their own AR content, we reduced the need for dev cycles and made real-time updates possible. The opportunity lay in building a tool that could scale demo creation across teams with no extra learning curve.</p>
+                    </section>
+
+                    <!-- UX Strategy Section -->
+                    <section id="uxstrategy" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">UX Strategy</span>
+                        <h2 class="section-title">Simplicity, Structure, and Speed</h2>
+                        <p>We streamlined the app flow to four clear steps: Login → Create Project → Upload Assets → Generate Demo. The UI included file format guidance, inline validations, and visual confirmations. We also added a demo gallery to support learning by example.</p>
+                    </section>
+
+                    <!-- Delivery Section -->
+                    <section id="delivery" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Delivery</span>
+                        <h2 class="section-title">From Concept to Clickable Interface</h2>
+                        <p>Delivered low-fidelity flows to align quickly with stakeholders, then built high-fidelity mockups with attention to clarity and mobile responsiveness. Worked with developers to structure asset upload and AR rendering pipeline using scalable file formats (GLB, MP4, PDF).</p>
+
+                        <div class="research-images">
+                            <div class="row justify-content-center">
+                                <div class="col-md-10">
+                                    <div class="row row-cols-1 row-cols-md-1 g-4 justify-content-center">
+                                        <div class="col">
+                                            <div class="research-image p-3 text-center">
+                                                <img src="../assets/images/product/tsokotla/delivery.png" alt="Delivery" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </section>
+
+                    <!-- Feedback Section -->
+                    <section id="feedback" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Feedback</span>
+                        <h2 class="section-title">Learning Through Iteration</h2>
+                        <p>User feedback surfaced small but meaningful gaps — file upload confirmations, loading states, and autosave for form fields. We rapidly iterated, adding these refinements to improve trust, usability, and speed of adoption.</p>
+                    </section>
+
+                    <!-- Reflection Section -->
+                    <section id="reflection" class="content-section mb-5" data-aos="fade-up">
+                        <span class="section-subtitle">Reflection</span>
+                        <h2 class="section-title">What I Learned as a Product Manager</h2>
+                        <p>This project taught me how to distill a complex goal — AR content creation — into a clean, linear workflow. I learned how critical it is to meet users where they are, both in terms of technical skill and mental models. It also sharpened my delivery process, showing the value of fast prototyping, close user feedback loops, and simplifying without compromising.</p>                        
+                    </section>
+
+                    <!-- Add the new button here -->
+                    <div class="mt-4 text-center">
+                        <a href="#" class="prototype-btn tsokotla_content">Click to view prototype</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+
+    <!-- Featured Work Section -->
+    <section id="featured" class="featured-section py-5">
+        <div class="container">
+            <!-- Header -->
+            <div class="featured-header text-center mb-5" data-aos="fade-up">
+                <h2 class="featured-title">Featured Work</h2>
+            </div>
+
+            <!-- Featured Work Carousel -->
+            <div id="featuredWorkCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner pb-0">
+                    <!-- Work Group 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-Running-Karo.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/user-centric.png" alt="user-centric" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-fintech.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/fintech.png" alt="fintech" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Group 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-my-portfolio.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/precise.png" alt="precise" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-fujifilm.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/fujifilm.png" alt="fujifilm" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Group 3 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-tsokotla.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/tsokotla.png" alt="tsokotla" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <a href="../product/product-cat.html" class="featured-card-link" >
+                                    <div class="featured-card" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="featured-image">
+                                            <img src="../assets/images/product/cat.png" alt="CAT" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel Controls -->
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#featuredWorkCarousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="footer-section py-5 mt-5" id="contact">
+        <div class="container">
+            <!-- Logo -->
+            <div class="footer-logo text-center mb-5" data-aos="fade-up">
+                <img src="../assets/images/F-Logo.png" alt="Footer Logo" class="img-fluid">
+            </div>
+
+            <!-- Contact Information -->
+            <div class="row contact-info justify-content-center mb-5">
+                <!-- Email -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                    <a href="mailto:vaibhavshukla3d@gmail.com" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="../assets/images/footer/Mail.png" alt="Email" class="contact-icon">
+                        <span class="contact-text">vaibhavshukla3d@gmail.com</span>
+                    </a>
+                </div>
+
+                <!-- Phone -->
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+                    <a href="tel:+919654007107" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="../assets/images/footer/Call.png" alt="Phone" class="contact-icon">
+                        <span class="contact-text">+91- 9654007107</span>
+                    </a>
+                </div>
+
+                <!-- LinkedIn -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <a href="https://linkedin.com/in/virtual-reality/" target="_blank" class="contact-item d-flex align-items-center justify-content-center">
+                        <img src="../assets/images/footer/Linkedin.png" alt="LinkedIn" class="contact-icon">
+                        <span class="contact-text">linkedin.com/in/virtual-reality/</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="footer-divider mb-4"></div>
+
+            <!-- Copyright -->
+            <div class="copyright text-center" data-aos="fade-up">
+                <p class="mb-0">Copyright © 2025 All Rights Reserved. Powered By: Vaibhav Shukla</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

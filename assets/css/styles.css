@@ -1487,3 +1487,17 @@ body {
 .next-project-btn:hover i {
     transform: translateX(5px);
 }
+
+.backbutton {
+    color: #fff;
+    font-weight: 800;
+    border: 2px solid #ffffff;
+    padding: 5px 15px !important;
+    border-radius: 20px;
+    width: 50px;
+    line-height: 1;
+}
+
+.backbutton:hover{ 
+    padding: 5px 10px !important;
+}

@@ -5,12 +5,24 @@
     box-sizing: border-box;
 }
 
+[id] {
+    scroll-margin-top: 60px;
+}
+
+html {
+    scroll-padding-top: 60px;
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #000;
     color: #fff;
     font-family: 'Arial', sans-serif;
     padding-top: 80px; /* Space for fixed navbar */
+    font-size: 18px;
 }
+
+
 
 /* Navbar styles */
 .navbar {
@@ -113,7 +125,7 @@ body {
     }
 
     .navbar-brand img {
-        height: 32px;
+        height: 20px;
     }
 }
 
@@ -128,6 +140,10 @@ body {
 .hero-image {
     max-width: 100%;
     height: auto;
+    background-image: url(../images/gradient.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
 .hero-image img {
@@ -252,7 +268,7 @@ body {
 }
 
 .skill-column:hover {
-    border-color: #007bff;
+    border-color: #ececec2b;
     box-shadow: 0 0 20px rgba(0, 123, 255, 0.1);
     transform: translateY(-5px);
 }
@@ -279,7 +295,7 @@ body {
 
 .skill-list li::before {
     content: "•";
-    color: #007bff;
+    color: #ffffff;
     position: absolute;
     left: 0;
     font-size: 1.2rem;
@@ -352,7 +368,7 @@ body {
     transform: translateX(-50%);
     width: 50px;
     height: 3px;
-    background-color: #007bff;
+    background-color: #ffffff;
 }
 .work-card {
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -426,18 +442,19 @@ body {
 .view-project-btn {
     display: inline-block;
     padding: 8px 20px;
-    background-color: #cfcfcf;
-    color: #000;
+    /* background-color: #cfcfcf; */
+    color: #ffffff;
     text-decoration: none;
     border-radius: 6px;
     font-weight: 500;
     transition: all 0.3s ease;
+    text-decoration: underline;
+    font-weight: 600;;
 }
 
 .view-project-btn:hover {
-    background-color: #ffffff;
     transform: translateY(-2px);
-    color: #000;
+    color: #cac8c8;
 }
 
 .work-card:hover .view-project-btn {
@@ -592,7 +609,7 @@ body {
     transform: translateX(-50%);
     width: 50px;
     height: 3px;
-    background-color: #007bff;
+    background-color: #ffffff;
 }
 
 /* Carousel Styles */
@@ -626,7 +643,7 @@ body {
     height: 60px;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid #007bff;
+    border: 2px solid #6c757d;
 }
 
 .author-image img {
@@ -667,7 +684,7 @@ body {
     width: 10px !important;
     height: 10px !important;
     border-radius: 50%;
-    background-color: #007bff !important;
+    background-color: #ffffff !important;
     opacity: 0.5;
 }
 
@@ -731,7 +748,7 @@ body {
 }
 
 .contact-item:hover {
-    color: #007bff;
+    color: #e3e4e6;
     transform: translateY(-5px);
     background-color: rgba(255, 255, 255, 0.05);
     box-shadow: 0 5px 15px rgba(0, 123, 255, 0.1);
@@ -820,7 +837,7 @@ body {
     bottom: -10px;
     left: 0;
     width: 50px;
-    height: 3px;
+    height: 0px;
     background-color: #007bff;
 }
 
@@ -863,7 +880,7 @@ body {
 
 .duration {
     font-size: 0.9rem;
-    color: #007bff;
+    color: #ffffff;
     display: block;
     margin-bottom: 1rem;
 }
@@ -884,7 +901,7 @@ body {
 
 .responsibility-list li::before {
     content: "•";
-    color: #007bff;
+    color: #ffffff;
     position: absolute;
     left: 0;
     font-size: 1.2rem;
@@ -932,7 +949,7 @@ body {
     transform: translateX(-50%);
     width: 50px;
     height: 3px;
-    background-color: #007bff;
+    background-color: #ffffff;
 }
 
 .featured-card {
@@ -1116,7 +1133,7 @@ body {
 
 .content-list li::before {
     content: "•";
-    color: #d9ff97;
+    color: #ffffff;
     position: absolute;
     left: 0;
     font-size: 1.2rem;
@@ -1171,6 +1188,37 @@ body {
 }
 
 
+/* #runningkaro_content  */
+.runningkaro_content {
+    background-color: #d9ff97;
+}
+.runningkaro_content:hover {
+    background-color: #a8b98a
+}
+#runningkaro_content .nav-item label::before {
+    border: 2px solid #d9ff97;
+}
+#runningkaro_content .nav-item input[type="radio"]:checked + label::before {
+    background-color: #d9ff97;
+    border-color: #d9ff97;
+}
+#runningkaro_content .nav-item input[type="radio"]:checked + label {
+    color: #d9ff97;
+}
+/* Add subtle hover effect */
+#runningkaro_content .nav-item label:hover::before { 
+    border-color: #d9ff97;
+}
+#runningkaro_content .section-subtitle {
+    color: #d9ff97;
+}
+#runningkaro_content .content-list li::before {    
+    color: #d9ff97;
+}
+#runningkaro_content  .section-title::after {
+    background-color: #d9ff97;
+}
+
 
 /* #fintech_content  */
 .fintech_content {
@@ -1199,10 +1247,12 @@ body {
 #fintech_content .content-list li::before {    
     color: #61a3f9;
 }
+#fintech_content  .section-title::after {
+    background-color: #61a3f9;
+}
 
 
-
-/* #fintech_content  */
+/* #portfolio_content  */
 .portfolio_content {
     background-color: #d4b5aa;
 }
@@ -1229,6 +1279,10 @@ body {
 #portfolio_content .content-list li::before {    
     color: #d4b5aa;
 }
+#portfolio_content  .section-title::after {
+    background-color: #d4b5aa;
+}
+
 
 
 /* #fujifilm_content  */
@@ -1257,6 +1311,9 @@ body {
 }
 #fujifilm_content .content-list li::before {    
     color: #ffcb91;
+}
+#fujifilm_content .section-title::after {
+    background-color: #ffcb91;
 }
 
 
@@ -1287,6 +1344,9 @@ body {
 #caterpiller_content .content-list li::before {    
     color: #ffdc58;
 }
+#caterpiller_content .section-title::after {
+    background-color: #ffdc58;
+}
 
 
 /* #tsokotla_content  */
@@ -1316,6 +1376,9 @@ body {
 #tsokotla_content .content-list li::before {    
     color: #07c2ff;
 }
+#tsokotla_content .section-title::after {
+    background-color: #07c2ff;
+}
 
 
 /* camera-view-in-AR */
@@ -1342,8 +1405,8 @@ body {
     bottom: -10px;
     left: 0;
     width: 50px;
-    height: 3px;
-    background-color: #d9ff97;
+    height: 0px;
+    background-color: #ffffff;
 }
 
 .section-text {
@@ -1395,4 +1458,32 @@ body {
     .hero-image {
         display: none;
     }
+}
+
+
+
+.next-project-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.next-project-btn:hover {
+    background-color: #bec0b9;
+    transform: translateY(-2px);
+    color: #000;
+    box-shadow: 0 4px 12px rgba(217, 255, 151, 0.2);
+}
+
+.next-project-btn i {
+    transition: transform 0.3s ease;
+}
+
+.next-project-btn:hover i {
+    transform: translateX(5px);
 }

@@ -68,3 +68,53 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Handle hash in URL when page loads
+    if (window.location.hash) {
+        // Wait a moment for page to load
+        setTimeout(function() {
+            const targetId = window.location.hash;
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                const offset = 60;
+                const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - offset;
+                
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }, 100);
+    }
+
+    // Handle click navigation
+    const navLinks = document.querySelectorAll('a[href^="#"]');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            const targetElement = document.querySelector(targetId);
+            if (!targetElement) return;
+
+            const offset = 60;
+            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - offset;
+
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+
+            // Update URL without triggering scroll
+            history.pushState(null, null, targetId);
+        });
+    });
+});
